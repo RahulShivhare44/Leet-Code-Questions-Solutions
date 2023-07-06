@@ -5,19 +5,17 @@ public:
         vector<int> temp = nums;
         int j = 0;
         int n = nums.size();
-        k = k%n;
+        k = k % n;
 
-        for(int i=n - k; i<temp.size(); i++){
+        for(int i= n - k; i < n; i++){
             nums[j] = temp[i];
-            cout<< nums[j]<< endl;
             j++;
         }        
 
-        for(int i=0; i<=n - k - 1; i++){
+        for(int i = 0; i <= n - k - 1; i++){
             nums[j] = temp[i];
             j++;
         }       
-
 
     }
 };
