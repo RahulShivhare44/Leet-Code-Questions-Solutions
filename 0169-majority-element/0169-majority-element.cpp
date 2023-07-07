@@ -18,7 +18,6 @@ public:
             if(maxVal < x->second){
                 maxKey = x->first;
                 maxVal = x->second;
-                cout<<maxKey << " " << maxVal<< endl;
             }
         }
 
