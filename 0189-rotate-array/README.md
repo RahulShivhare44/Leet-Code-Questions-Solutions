@@ -2,7 +2,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-
+ 
 <pre>
 <strong>Input:</strong> nums = [1,2,3,4,5,6,7], k = 3
 <strong>Output:</strong> [5,6,7,1,2,3,4]
